@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Fascinate", cursive; }
+
+.container {
+  max-width: 800px;
+  margin: auto; }
+
+.m-2 {
+  margin-top: 2rem; }
+
+.px-1 {
+  padding: 0 1rem; }
+
+.head {
+  font-size: 3rem;
+  margin-bottom: 1rem; }
+
+.btn {
+  border: none;
+  padding: 0.6rem;
+  text-transform: uppercase; }
+
+a {
+  text-decoration: none;
+  color: red; }
+
+#book-form {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px #cfcfcf solid;
+  padding-bottom: 1rem; }
+  #book-form .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.7rem; }
+    #book-form .input-group label {
+      margin-bottom: 0.3rem; }
+    #book-form .input-group input[type="text"] {
+      padding: 0.4rem;
+      border-radius: 3px;
+      border: 1px #b8b8b8 solid;
+      width: 100%; }
+    #book-form .input-group #sbm-btn {
+      width: 20%;
+      background: #3576b3;
+      color: white;
+      border-radius: 3px;
+      margin-top: 0.5rem; }
+
+#book-list {
+  width: 100%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  border-collapse: collapse; }
+  #book-list tr {
+    border-bottom: 1px #cfcfcf solid; }
+  #book-list th {
+    padding-bottom: 1rem;
+    font-weight: bold; }
+  #book-list td {
+    padding: 0.7rem 0; }

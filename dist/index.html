@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fascinate|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <title>BookList</title>
+  </head>
+  <body>
+    <div class="container m-2 px-1">
+      <h1 class="head">Add Book</h1>
+      <form id="book-form">
+        <div class="input-group">
+          <label for="title">Book Title</label>
+          <input type="text" id="title" />
+        </div>
+        <div class="input-group">
+          <label for="author">Author</label>
+          <input type="text" id="author" />
+        </div>
+        <div class="input-group">
+          <label for="isbn">ISBN</label>
+          <input type="text" id="isbn" />
+        </div>
+        <div class="input-group">
+          <input type="submit" id="sbm-btn" class="btn" />
+        </div>
+      </form>
+      <table id="book-list">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Harry Potter</td>
+            <td>Jk Rowling</td>
+            <td>12548</td>
+            <td><a href="#">X</a></td>
+          </tr>
+          <tr>
+            <td>The Man</td>
+            <td>H.Macin</td>
+            <td>5264</td>
+            <td><a href="#">X</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

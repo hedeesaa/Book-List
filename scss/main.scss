@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fascinate", cursive;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.m-2 {
+  margin-top: 2rem;
+}
+.px-1 {
+  padding: 0 1rem;
+}
+
+.head {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.6rem;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+#book-form {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px rgb(207, 207, 207) solid;
+  padding-bottom: 1rem;
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.7rem;
+
+    label {
+      margin-bottom: 0.3rem;
+    }
+    input[type="text"] {
+      padding: 0.4rem;
+      border-radius: 3px;
+      border: 1px rgb(184, 184, 184) solid;
+      width: 100%;
+    }
+    #sbm-btn {
+      width: 20%;
+      background: rgb(53, 118, 179);
+      color: white;
+      border-radius: 3px;
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+#book-list {
+  width: 100%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px rgb(207, 207, 207) solid;
+  }
+  th {
+    padding-bottom: 1rem;
+    font-weight: bold;
+  }
+  td {
+    padding: 0.7rem 0;
+  }
+}
