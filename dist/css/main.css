@@ -29,6 +29,13 @@ a {
   text-decoration: none;
   color: red; }
 
+.alert {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 1rem; }
+
 #book-form {
   font-family: "Montserrat", sans-serif;
   border-bottom: 1px #cfcfcf solid;
